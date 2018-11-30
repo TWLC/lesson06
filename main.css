@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    /* margin: 0; */
+    /* padding: 0; */
+    background-color: black;
+    /* width: 200px; */
+    width: 100%;
+}
+
+/* .dropbutton {
+    display: none;
+} */
+
+.navbar a, .dropbutton {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.dropbutton, .dropdown-content {
+    background-color: black;
+    border: none;
+    min-width: 125px;
+}
+
+.navbar a:hover, .dropbutton:hover {
+    background-color: gray;
+}
+
+#aboutmenu {
+    float: right;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Initially make the dropdown content not visible */
+.dropdown-content {
+    display: none;
+    /* position the dropdown content */
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* highlight the activemenuitem for the current page */
+.activemenuitem {
+    background-color: green;
+}
+
+p {
+    margin: 3%;
+}
+
+h2 {
+    margin: 1%;
+}
